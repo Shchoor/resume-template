@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 120%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    margin-left: 270px;
+
+    h1 {
+        margin: 0!important;
+        padding: 0!important;
+        font-family: SairaExtraCondensed, sans-serif;
+        font-size: 5em;
+    }
+    
+    h2 {
+        margin: 0!important;
+        padding-bottom: 30px;
+        font-family: SairaExtraCondensed, sans-serif;
+        font-size: 3em;
+    }
+}

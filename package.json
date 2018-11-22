@@ -1,0 +1,24 @@
+{
+  "name": "personal-webp",
+  "version": "1.0.0",
+  "description": "responsive design resume",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "personal",
+    "vitae",
+    "cv"
+  ],
+  "author": "vlad.polovyi@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

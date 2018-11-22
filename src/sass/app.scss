@@ -1,0 +1,132 @@
+@import "../fontawesome/scss/fontawesome.scss";
+@import "../fontawesome/scss/solid.scss";
+@import "../fontawesome/scss/brands.scss";
+@import "../fontawesome/scss/regular.scss";
+
+@import "variables";
+@import "mixins";
+@import "base";
+
+
+@media(max-width:900px) {
+    body {
+        display:none;
+    }
+}
+
+
+.menu {
+    overflow: hidden;
+    background-color: $main-color;
+    position: fixed;
+    width: 270px;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* horizontal */
+    justify-content: center; /* vertical */
+
+    .nav-item {
+        padding: 5px 0;
+    }
+
+    img {
+        border-radius: 50%;
+        border: 10px solid rgba(201, 116, 77, 0.856);
+        height: auto; 
+        width: auto; 
+        max-width: 150px; 
+        max-height: 150px;
+        margin-bottom: 20px; 
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    a { 
+        font-weight: bold;
+        color: #c7c7c7;
+    
+        &:hover {
+            color: #ffff;
+        }
+    } 
+}
+
+.content {
+    padding: 50px;
+    width: 100%;
+}
+
+.resume-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: center; /* vertical */
+	border-bottom: 3px solid #e0e0e0;
+}
+
+
+
+.resume-item {
+    margin-bottom: 50px;
+}
+
+.item__heading {
+    font-family: SairaExtraCondensed, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.item__subheading {
+    font-family: SairaExtraCondensed, sans-serif;
+    font-size: 1.2em;
+    color: $my-grey;
+}
+
+
+.subheading {
+    font-family: SairaExtraCondensed, sans-serif;
+    font-size: 1.7em;
+    color: $my-grey;
+    padding-bottom: 30px;
+}
+
+.timeline-right {
+    float: right;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.description {
+    color: $my-grey;
+    width: 100%;
+}
+
+.social-media {
+    padding-top: 20px;
+    a {
+        display: inline-block;
+        height: 3.5rem;
+        width: 3.5rem;
+        background-color: #495057;
+        color: #fff!important;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+        margin-right: 1rem;
+        cursor: pointer;
+        &:hover {
+            background-color: $main-color;
+        }
+    }
+}
+
+.selected {
+    color: #fff!important;
+}

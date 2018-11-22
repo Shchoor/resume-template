@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: SairaExtraCondensed;
+    src: url(../fonts/Saira_Extra_Condensed/SairaExtraCondensed-Regular.ttf);
+}
+
+$main-color: #bd5d38;
+$my-grey: #868e96;
+
+.main-color {
+    color: $main-color;
+}
